@@ -71,7 +71,7 @@
               "browserTarget": "angular-progweb:build:production"
             },
             "development": {
-              "browserTarget": "angular-progweb:build:development"
+              "browserTarget": "angular-progweb:build:development",
             }
           },
           "defaultConfiguration": "development"
