@@ -1,0 +1,26 @@
+<div class="modal" tabindex="-1" role="dialog" id="analizarPub">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Analizar Publicación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-url">
+          <p>En el siguiente diálogo, favor de pegar la url de la publicación a analizar</p>
+          <input type="url">
+        </div>
+        <div class="modal-results">
+          <p class="resultados">
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" (click)="analizarPublicacion()">Analizar</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="closeModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

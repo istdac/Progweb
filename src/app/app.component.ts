@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import $ from 'jquery';
+import * as bootstrap from 'bootstrap';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +10,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-progweb';
   AddPostArea(){
-    console.log("create post area");
-    
+    $('#analizarPub').show();
   }
 }
